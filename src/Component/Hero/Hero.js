@@ -9,16 +9,16 @@ import {AiOutlineHome } from 'react-icons/ai';
 
 const Hero = () => {
     return (
-        <div className="bg-gradient-to-r from-indigo-500 to-cyan-300 px-28 py-10 h-[680px]">
-            <Navbar />
+        <div className="bg-gradient-to-r from-indigo-500 to-cyan-300 lg:px-28 lg:py-10 lg:h-[680px] w-full">
+        <Navbar/>
 
-            <div class="card m-5 bg-base-100 top-20 shadow-2xl">
+            <div class="card lg:m-5 bg-base-100 top-20 shadow-2xl">
                 <div class="card-body">
-                    <div className='flex'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2'>
                         <div>
                             <img src={img} style={{width: "600px", height: "570px", backgroundColor:'#87CEFA'}}  alt='' />
                         </div>
-                        <div className='ml-20 py-5'>
+                        <div className='lg:ml-20 py-5'>
                             <h3>HELLO EVERYBODY, I AM</h3>
                             <h1 className='text-upperCase text-4xl font-bold mt-4'>Mohammad <span className='block'>Mehedi Hasan</span></h1>
                             <p className='mt-5 text-xl font-mono'>Web Developer</p>
